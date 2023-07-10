@@ -64,5 +64,6 @@ class FeedbackWidget extends Component {
 }
 FeedbackWidget.propTypes = {
   step: PropTypes.number.isRequired,
+  initialValue: PropTypes.number.isRequired,
 };
 export default FeedbackWidget;
